@@ -1,29 +1,43 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8"/>
+    <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <title>2rism</title>
 
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="libs/autoComplete/css/autoComplete.01.css"/>
+    <link rel="stylesheet" href="libs/custom-select/custom-select.css"/>
 </head>
 <body>
 <header class="header">
     <div class="container container--header">
         <nav class="nav">
             <a href="#" class="logo">
-                <img src="./img/logo/logo.svg" alt="logo">
+                <img src="./img/logo/logo.svg" alt="logo"/>
             </a>
             <ul class="nav-list">
                 <li class="nav-list__item"><a href="#" class="nav-list__link">Home</a></li>
-                <li class="nav-list__item"><a href="#" class="nav-list__link">Hotels</a></li>
-                <li class="nav-list__item"><a href="#" class="nav-list__link">Restaurants</a></li>
+                <li class="nav-list__item">
+                    <a href="#" class="nav-list__link">Hotels</a>
+                </li>
+                <li class="nav-list__item">
+                    <a href="#" class="nav-list__link">Restaurants</a>
+                </li>
                 <li class="nav-list__item"><a href="#" class="nav-list__link">Tours</a></li>
-                <li class="nav-list__item"><a href="#" class="nav-list__link">Destinations</a></li>
-                <li class="nav-list__item"><a href="#" class="nav-list__link">Activities</a></li>
-                <li class="nav-list__item"><a href="#" class="nav-list__link">Contact</a></li>
+                <li class="nav-list__item">
+                    <a href="#" class="nav-list__link">Destinations</a>
+                </li>
+                <li class="nav-list__item">
+                    <a href="#" class="nav-list__link">Activities</a>
+                </li>
+                <li class="nav-list__item">
+                    <a href="#" class="nav-list__link">Contact</a>
+                </li>
             </ul>
 
             <div class="user">
@@ -32,31 +46,34 @@
                     <span class="user__name">Ales Nesetril</span>
                 </div>
                 <div class="user__avatar">
-                    <img class="user__img" src="./img/header/avatar.jpg" alt="User avatar">
+                    <img class="user__img" src="./img/header/avatar.jpg" alt="User avatar"/>
                 </div>
             </div>
         </nav>
 
         <div class="header__content">
-            <div class="header__title">
-                Discover the most engaging places
-            </div>
+            <div class="header__title">Discover the most engaging places</div>
             <button class="header__btn header__btn--huge">
-                <img src="./img/icons/global-line.svg" alt="Global icon">
+                <img src="./img/icons/global-line.svg" alt="Global icon"/>
                 Discover on 3D Globe
             </button>
         </div>
 
         <form action="" class="form">
             <div class="form__input--wrapper form__input--location">
-                <!--                <img src="./img/icons/map-pin-line.svg" alt="">-->
-                <label for="location" class="form-label">Location</label>
-                <input type="text" class="form__input" id="location" placeholder="Explore nearby destinations">
+                <label for="location" class="form__label">Location</label>
+                <input
+                        autocomplete="off"
+                        type="text"
+                        class="form__input"
+                        id="location"
+                        placeholder="Explore nearby destinations"
+                />
             </div>
 
             <div class="form__input--wrapper form__input--activity">
                 <!--                <img src="./img/icons/map-pin-line.svg" alt="">-->
-                <label for="activity" class="form-label">Activity</label>
+                <label for="activity" class="form__label">Activity</label>
                 <select name="activity" id="activity" class="form__select">
                     <option value="All Activities">All Activities</option>
                     <option value="Culture">Culture</option>
@@ -68,13 +85,13 @@
 
             <div class="form__input--wrapper form__input--calendar">
                 <!--                <img src="./img/icons/map-pin-line.svg" alt="">-->
-                <label for="calendar" class="form-label">When</label>
-                <input type="date" class="form__input" id="calendar" placeholder="Choose a Date">
+                <label for="calendar" class="form__label">When</label>
+                <input type="date" class="form__input" id="calendar" placeholder="Choose a Date"/>
             </div>
 
             <div class="form__input--wrapper form__input--guests">
                 <!--                <img src="./img/icons/map-pin-line.svg" alt="">-->
-                <label for="guests" class="form-label">Guests</label>
+                <label for="guests" class="form__label">Guests</label>
                 <select name="guests" id="guests" class="form__select">
                     <option value="1 guest">1 guest</option>
                     <option value="2 guest">2 guest</option>
@@ -85,14 +102,15 @@
             </div>
 
             <button class="form__button">
-                <img class="form__button--search" src="./img/icons/search.svg" alt="">
+                <img class="form__button--search" src="img/icons/search.svg" alt=""/>
             </button>
         </form>
     </div>
 </header>
+<script src="libs/autoComplete/autoComplete.min.js"></script>
+<script src="libs/custom-select/custom-select.min.js"></script>
 
-
+<script src="js/input.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
-
