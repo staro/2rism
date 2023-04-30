@@ -38,3 +38,23 @@
 .form__button:hover {
   background-color: #5a3cfa;
 }
+
+/* BUTTON MAIN */
+
+.button-more {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 10px;
+  height: 44px;
+  background: #f6f4ff;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #5a3cfa;
+  transition: background-color 0.2s ease-in;
+}
+
+.button-more:hover {
+  background-color: #e3daff;
+}
