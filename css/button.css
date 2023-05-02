@@ -1,60 +1,78 @@
 /* HEADER BUTTON */
 
 .header__btn {
-  background-color: #7b61ff;
-  border-radius: 12px;
-  color: #fff;
+    background-color: #7b61ff;
+    border-radius: 12px;
+    color: #fff;
 }
 
 .header__btn--huge {
-  display: flex;
-  column-gap: 10px;
-  align-items: center;
-  padding: 24px;
-  font-size: 18px;
-  font-weight: 500;
-  transition: background-color 0.2s ease-in;
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    padding: 24px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: background-color 0.2s ease-in;
 }
 
 .header__btn:hover {
-  background-color: #5a3cfa;
+    background-color: #5a3cfa;
 }
 
 .header__btn:active {
-  position: relative;
-  top: 1px;
+    position: relative;
+    top: 1px;
 }
 
 /* HEADER FORM BUTTON */
 
 .form__button {
-  width: 60px;
-  height: 60px;
-  background-color: #7b61ff;
-  border-radius: 12px;
-  transition: background-color 0.2s ease-in;
+    width: 60px;
+    height: 60px;
+    background-color: #7b61ff;
+    border-radius: 12px;
+    transition: background-color 0.2s ease-in;
 }
 
 .form__button:hover {
-  background-color: #5a3cfa;
+    background-color: #5a3cfa;
 }
 
 /* BUTTON MAIN */
 
 .button-more {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  padding: 10px;
-  height: 44px;
-  background: #f6f4ff;
-  border-radius: 12px;
-  font-size: 16px;
-  font-weight: 400;
-  color: #5a3cfa;
-  transition: background-color 0.2s ease-in;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 10px;
+    height: 44px;
+    background: #f6f4ff;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #5a3cfa;
+    transition: background-color 0.2s ease-in;
 }
 
 .button-more:hover {
-  background-color: #e3daff;
+    background-color: #e3daff;
+}
+
+/* BUTTON SUBSCRIBE */
+
+.subscribe__btn-wrapper {
+
+}
+
+.subscribe__btn {
+    width: 72px;
+    height: 72px;
+    background-color: #7b61ff;
+    border-radius: 12px;
+    transition: background-color .2s ease-in;
+}
+
+.subscribe__btn:hover {
+    background-color: #5a3cfa;
 }

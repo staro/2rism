@@ -1,3 +1,5 @@
+// Плагин календаря
+
 customSelect("select");
 
 const picker = new easepick.create({
