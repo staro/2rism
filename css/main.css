@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
-@import 'reset.css';
-@import 'button.css';
-@import 'nav-icon.css';
-@import 'media.css';
+@import './reset.css';
+@import './button.css';
+@import './nav-icon.css';
+@import './mobile-nav.css';
 
 html,
 body {
     font-family: 'Poppins', sans-serif;
+}
+
+.none {
+    display: none !important;
 }
 
 .header {
@@ -31,7 +35,6 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-    align-items: center;
 }
 
 /* NAV */
